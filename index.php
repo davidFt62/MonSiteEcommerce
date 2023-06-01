@@ -14,4 +14,10 @@ require('./inc/haut.inc.php');
 
 
  <?php
+ //t Récuperer la valeur de la variable
+ echo getenv('NOM_VARIABLE');
+ echo '<br>ou<br>';
+ echo $_ENV['NOM_VARIABLE'];
+ echo $_ENV['TEST'];
+
  require('./inc/bas.inc.php');
